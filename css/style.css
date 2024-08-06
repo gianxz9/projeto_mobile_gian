@@ -58,6 +58,20 @@ button[type="submit"]:hover {
   background-color: #3e8e41;
 }
 
+button[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
 /*estilos da tabela*/
 table {
   width: 100%;
@@ -68,11 +82,11 @@ table {
 th,td {
   padding: 10px;
   text-align: left;
-  border-bottom: 1px solid #ddd
+  border-bottom: 1px solid #ddd;
 }
 
 th {
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
 
 tbody tr: hover {
